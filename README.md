@@ -1,6 +1,8 @@
-# End of Life reached for LIRE
+# About This Fork
 
-This project is no longer maintained. I want to thank all those who helped, found kind words of support, and cited LIRE in their academic work.
+This project is a fork of [dermotte/LIRE](https://github.com/dermotte/LIRE), which is now publicly archived. I have integrated OpenCV by adding the `org.openpnp.opencv` dependency. The project can now be deployed to the central Maven repository, making it easier to import into other projects.
+
+**Note:** I removed all unit test cases and samples as they were outdated, and I also removed the Gradle files, as I rarely use them. The code has changed minimally, but new unit tests may be needed for production verification.
 
 # LIRE - Lucene Image Retrieval
 
